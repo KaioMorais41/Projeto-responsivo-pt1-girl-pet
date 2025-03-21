@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .wrapper {
+      height: 100vh;
+      width: 100vw;
+  }
+  
+  .menu {
+      color: #989D9C;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: normal;
+      margin-right: 29px;
+  }
+  
+  header {
+      margin-left: 76px;
+  } 
+  
+  .log {
+      width: 130px;
+      height: 41px;
+      flex-shrink: 0;
+      border-radius: 20.5px;
+      background: #665AE1;
+      cursor: pointer;
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: normal;
+      border: none;
+  }
+  
+  .container-left {
+      margin-top: 44px;
+      display: inline-block;
+  }
+  
+  .container-right {
+      display: inline-block;
+      margin-top: 50px; 
+  }
+  
+  img {
+      margin-top: 144px;
+      padding: 125px;
+      position: relative;
+  }
+  
+  h1 {
+      color: #515151;
+      font-size: 100px;
+      font-weight: 900;
+      line-height: normal;
+  }
+  
+  h2 {
+      color: #515151;
+      font-size: 58px;
+      font-weight: 500;
+      line-height: normal;
+  }
+  
+  p {
+      width: 514px;
+      color: #848484;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 32px;
+      margin-bottom: 65px;
+  }
+  
+  .explore {
+      width: 239px;
+      height: 64px;
+      flex-shrink: 0;
+      border-radius: 30px;
+      background: #ADFF00;
+      border: none;
+      flex-shrink: 0;
+      color: #000;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: normal;
+  }
+  @media screen and (max-width: 900px){
+      .container-left {
+          width: 100%;
+          height: 50%;
+          margin: 0;
+          padding: 0;
+  
+      }
+  
+      .container-right {
+          display: block;
+          height: auto;
+          width: 100%;
+          position: static;
+          margin: 0;
+          padding: 0;
+      }
+  
+      img {
+          position: static;
+          width: 100%;
+          padding: 40px;
+      }
+  
+      header {
+          display: none;
+      } 
+  
+      h1 {
+          width: 263px;
+          height: 52px;
+          font-size: 50px;
+          font-weight: 900;
+          text-align: center;
+          margin-left: 64px;
+      }
+  
+      h2 {
+          width: 263px;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: normal;
+          margin-left: 79px;
+          margin-top: 7px;
+          margin-bottom: 17px;
+      }
+  
+      p {
+          display: none;
+      }
+  
+      .explore {
+          margin: 0 auto;
+          display: block;
+  
+      }
+  
+  
+  }
